@@ -21,9 +21,15 @@ module.exports = {
       jsx: true,
     },
   },
+  settings: {
+    // https://github.com/jsx-eslint/eslint-plugin-react/issues/2157
+    react: {
+      version: 'detect',
+    },
+  },
   plugins: ['react', '@typescript-eslint'],
   rules: {
-    '@typescript-eslint/no-unused-vars': 'warn',
+    '@typescript-eslint/no-unused-vars': 'error',
 
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-empty-interface': 'off',

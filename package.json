@@ -30,6 +30,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
+    "lint": "eslint --ext src/**/*.{js,ts,jsx,tsx} --no-error-on-unmatched-pattern",
+    "lint-fix": "eslint --fix --ext src/**/*.{js,ts,jsx,tsx} --no-error-on-unmatched-pattern",
     "prepare": "husky install && echo 'export PATH=\"/usr/local/bin/:$PATH\"' >> ~/.huskyrc"
   },
   "eslintConfig": {

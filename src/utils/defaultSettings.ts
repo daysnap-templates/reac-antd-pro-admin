@@ -1,8 +1,5 @@
 import { ProLayoutProps } from '@ant-design/pro-components'
 
-/**
- * @name
- */
 export const Settings: ProLayoutProps & {
   pwa?: boolean
   logo?: string
