@@ -1,6 +1,6 @@
+export * from './app'
+export * from './lang'
+
 export const login: (...args: any[]) => any = () => {
-  //
-}
-export const getFakeCaptcha: (...args: any[]) => any = () => {
   //
 }
